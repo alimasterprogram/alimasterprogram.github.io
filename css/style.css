@@ -1,0 +1,65 @@
+/* Setting Fonts */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 5);
+    overflow: hidden;
+}
+
+nav, nav a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16[x];
+}
+
+nav a.active {
+    color: #5bc0de;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #5bc0de;
+}
+
+nav h5 {
+    font-weight: bold;
+}
+
+/* Main */
+
+.main {
+    color: white;
+}
+
+.main h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.main h5 {
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.main p {
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.main button {
+    background-color: #5bc0de;
+    color: white;
+    margin-top: 25px;
+    margin-bot: 25px;
+}
+
+.bg-img {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    width: 75%;
+}
